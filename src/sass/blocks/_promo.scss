@@ -1,11 +1,8 @@
 .promo {
 	min-height: 100vh;
 	position: relative;
-	background-color: #CFFFCD;
-	background-image: url('../img/main_bg.png');
-	background-repeat: no-repeat;
-	background-position: 75% 50%;
-	padding-top: 205px;
+	background: url('../img/main_bg.jpg') no-repeat 50%/cover;
+	padding-top: 33vh;
 	&__title {
 		width: 450px;
 		margin-top: 10px;
