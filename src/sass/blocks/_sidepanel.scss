@@ -8,6 +8,13 @@
     align-items: center;
     height: 340px;
     z-index: 3;
+    &__link {
+        color: #000;
+        transition: all 0.4s;
+        &:hover {
+            color: #515151;
+        }
+    }
     &__divider {
         width: 2px;
         height: 70px;
