@@ -10,6 +10,8 @@
         grid-row: 1/3;
 		img {
 			width: 100%;
+			height: 100%;
+			object-fit: cover;
 		}
     }
     &__subtitle {
@@ -27,7 +29,6 @@
 	}
     &__text, &__social {
         margin-top: 20px;
-		
     }
 	&__link {
 		margin-right: 20px;
