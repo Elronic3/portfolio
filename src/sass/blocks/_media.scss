@@ -185,6 +185,11 @@
 		}
 	}
 	.promo {
+		.hamburger {
+			left: 20px;
+		}
+	}
+	.promo {
         &__title {
             line-height: 39px;
             width: 270px;
@@ -334,7 +339,7 @@
 		}
 	}
 	.hamburger {
-		right: 20px;
+		// right: 20px;
 		span {
 			background: #fff;
 		}
