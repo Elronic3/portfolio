@@ -25,10 +25,14 @@
 	&__link {
 		color: #000;
 		font-weight: 700;
+		box-shadow: inset 0 0 0 0 $main-color;
+		margin: 0 -.25rem;
+		padding: 0 .25rem;
 		transition: all 0.4s;
 		&:hover {
 			color: #000;
 			text-decoration: none;
+			box-shadow: inset 100px 0 0 0 $main-color;
 		}
 	}
 }
