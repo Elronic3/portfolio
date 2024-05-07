@@ -6,6 +6,7 @@
 		&__items {
 			padding: 60px 10px 0 10px;
 			grid-template-columns: repeat(4, 230px);
+			grid-template-rows: repeat(2, 290px);
 			gap: 10px;
 		}
 		&__ratings {
@@ -94,7 +95,7 @@
 		max-width: 720px;
 	}
 	.title {
-		&_fz36 {
+		&_fz38 {
 			font-size: 30px;
 		}
 	}
@@ -179,7 +180,7 @@
 		max-width: 540px;
 	}
 	.title {
-		&_fz48 {
+		&_fz50 {
 			font-size: 28px;
 		}
 	}
@@ -345,7 +346,7 @@
 		}
 	}
 	.title {
-		&_fz36 {
+		&_fz38 {
 			font-size: 24px;
 		}
 	}
@@ -397,7 +398,7 @@
 				width: 100%;
 			}
 		}
-		.title_fz36 {
+		.title_fz38 {
 			line-height: 36px;
 			width: 240px;
 			margin: 0 auto;
@@ -426,6 +427,7 @@
 		&__wrapper {
 			padding: 0;
 			grid-template-columns: 300px;
+			justify-content: center;
 		}
 		&__photo {
 			display: none;
