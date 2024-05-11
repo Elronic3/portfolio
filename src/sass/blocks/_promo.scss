@@ -32,7 +32,7 @@
 		&:hover {
 			color: #000;
 			text-decoration: none;
-			box-shadow: inset 100px 0 0 0 $main-color;
+			transform: scale(1.1);
 		}
 	}
 }
